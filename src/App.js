@@ -10,7 +10,7 @@ import SignIn from "./Auth/SignUp";
 import Forgot from "./Auth/Forgot";
 import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
-
+// Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, modi.
 function App() {
   return (
     <Router>
