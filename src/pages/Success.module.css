@@ -1,0 +1,52 @@
+.container {
+    background-color: rgb(109, 76, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .columnContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .number {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 16px;
+    text-align: center;
+  }
+  

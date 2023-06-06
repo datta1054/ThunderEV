@@ -1,0 +1,35 @@
+.FourthContainer {
+background-color: rgb(81, 77, 77);}
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carouselItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carouselLeft,
+.carouselRight {
+  flex: 1;
+  text-align: center;
+}
+
+.carouselMiddle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.carouselImage {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+}
+.FourHead {
+  color: white;
+}

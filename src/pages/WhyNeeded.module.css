@@ -1,0 +1,31 @@
+.readMore {
+  display: inline;
+}
+.product {
+  padding: 0% 5%;
+}
+
+.title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 16px;
+  color: #d2c2c2;
+  margin-bottom: 16px;
+  display: inline-block;
+  text-align: justify;
+}
+
+.readMoreButton {
+  display: inline;
+  background-color: #0077cc;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  margin-left: 45%;
+  border-radius: 4px;
+  cursor: pointer;
+}

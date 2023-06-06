@@ -1,0 +1,37 @@
+.container {
+  background-color: rgb(69, 70, 93);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.image {
+  margin: 0 10%;
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
+
+.textContainer {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.justifiedText {
+  font-size: 16px;
+  line-height: 1.5;
+}
