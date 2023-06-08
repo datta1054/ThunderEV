@@ -8,7 +8,7 @@ const { body, validationResult } = require("express-validator");
 
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const jwtSecret = "gurudattakamalakargadde456789012";
+const jwtSecret = "";
 
 const axios = require("axios");
 const fetch = require("../middleware/fetchdetails");
