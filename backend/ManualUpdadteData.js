@@ -6,7 +6,7 @@ const food_itemsSchema = require("./Models/food_items");
 dotenv.config({ path: "./config.env" });
 
 const DB =
-  "mongodb+srv://gurudatta1455:gurudatta@cluster0.vchy1nx.mongodb.net/Food?retryWrites=true&w=majority";
+  "";
 
 mongoose.connect(DB).then(() => console.log("DB connection successful!"));
 
