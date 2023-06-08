@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const url =
-  "mongodb+srv://gurudatta1455:ThunderBolt@cluster0.6fykdlm.mongodb.net/Thunder?retryWrites=true&w=majority";
+  "";
 
 const mongoFunction = async () => {
   try {
