@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import OneProductDetails from "./OneProductDetails";
-
+import loading from "./loading.gif";
 function OneProduct() {
   const { qid } = useParams();
   const [data, setData] = useState([]);
@@ -44,7 +44,12 @@ function OneProduct() {
             </div>
           ))
       ) : (
-        <p>Loading</p>
+        <div style={{ marginLeft: "15%" }}>
+          <img src={loading} alt="" />
+          <p style={{ fontWeight: "Bold", fontSize: "200%", color: "Pink" }}>
+            Loading...
+          </p>
+        </div>
       )}
     </div>
   );

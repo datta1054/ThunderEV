@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Products.module.css";
 import ProductList from "./ProductList";
+import loading from "./loadding.gif";
 const Products = () => {
   const [data, setData] = useState([]);
 
@@ -39,7 +40,12 @@ const Products = () => {
           />
         ))
       ) : (
-        <p>Loading...</p>
+        <div style={{ marginLeft: "20%" }}>
+          <img src={loading} alt="" />
+          <p style={{ fontWeight: "Bold", fontSize: "200%", color: "Pink" }}>
+            Loading...
+          </p>
+        </div>
       )}
     </div>
   );

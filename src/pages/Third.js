@@ -3,9 +3,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
 import { dummyIfNotLoaded } from "../Data";
+import loading from "./loading2.gif";
 function Test(props) {
   const responsive = {
-    superLargeDesktop: { 
+    superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -59,7 +60,12 @@ function Test(props) {
             />
           ))
         ) : (
-          <p>Loading...</p>
+          <div style={{ marginLeft: "50%" }}>
+            <img src={loading} alt="" />
+            <p style={{ fontWeight: "Bold", fontSize: "200%", color: "Pink" }}>
+              Loading...
+            </p>
+          </div>
         )}
       </Carousel>
     </div>
