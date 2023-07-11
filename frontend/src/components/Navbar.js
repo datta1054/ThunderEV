@@ -52,8 +52,7 @@ const Navbar = () => {
               </li>
             </>
           )}
-          {/* {!localStorage.getItem("token") ? "Present" : "Not there"} */}
-
+ 
           {/* <li>
             <div className={styles.search}>
               <input type="text" placeholder="Search..." />

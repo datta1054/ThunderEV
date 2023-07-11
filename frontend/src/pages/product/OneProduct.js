@@ -24,8 +24,6 @@ function OneProduct() {
   console.log(qid);
   return (
     <div style={{ background: "black" }}>
-      {/* <h2 style={{ color: "white" }}>Product Details</h2> */}
-
       {data && data.myProducts ? (
         data.myProducts
           .filter((product) => product.id === parseInt(qid))

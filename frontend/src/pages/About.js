@@ -10,8 +10,7 @@ const About = () => {
           Thunderboltz : The Future of Electric Vehicles
         </h1>
 
-        {/* <p>Welcome to our Electric Vegicle website!</p> */}
-        <p className={styles.aboutText}>
+         <p className={styles.aboutText}>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Thunderboltz is a company
           dedicated to making electric vehicles accessible and affordable for
           everyone. We believe that electric vehicles are the future of

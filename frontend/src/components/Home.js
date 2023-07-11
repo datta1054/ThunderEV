@@ -2,16 +2,12 @@ import React from "react";
 import styles from "./Home.module.css";
 import WhyNeeded from "../pages/WhyNeeded";
 import Second from "../pages/Second";
-import Third from "../pages/Third";
-import PieChart from "../pages/PieChart";
-import BarChart from "../pages/BarChart";
+import Third from "../pages/Third"; 
 import LineChart from "../pages/LineChart";
 import CarouselComponent from "../pages/CarouselComponent";
 import Fourth from "../pages/Fourth";
 import Fifth from "../pages/Fifth";
-import Services from "../pages/Services";
-import Features from "../pages/Features";
-import Success from "../pages/Success";
+import Services from "../pages/Services"; 
 
 import First from "../pages/First";
 function Home() {

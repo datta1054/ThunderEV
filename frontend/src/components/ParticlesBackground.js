@@ -19,7 +19,7 @@ function ParticlesBackground() {
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
-      options={ParticlesBackgroundSideConfetti} // Ensure that this object is correctly defined and contains valid properties
+      options={ParticlesBackgroundSideConfetti}
     />
   );
 }
