@@ -32,10 +32,10 @@
 }
 
 .label {
-  font-weight: 700;
+  font-weight:600;
   text-align: center;
   font-size: 1.1rem;
-}
+} 
 
 .input,
 .textarea {
