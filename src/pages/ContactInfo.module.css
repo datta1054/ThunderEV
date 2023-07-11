@@ -1,0 +1,32 @@
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.contactList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.value {
+  color: #d3cdcd;
+}

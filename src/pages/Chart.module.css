@@ -1,0 +1,15 @@
+.chartContainer {
+  background-color: rgb(28, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 50%;
+}
+.pie {
+  margin-left: 30%;
+  margin-right: 25%;
+  height: 20%;
+  width: 20%;
+}

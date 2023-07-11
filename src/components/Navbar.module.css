@@ -1,0 +1,110 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0rem 0.8rem;
+  z-index: 999;
+  width: 100%;
+  position: sticky;
+}
+
+.title {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.companyName {
+  font-size: 1.7rem;
+  color: #e16924;
+  text-decoration: none;
+  background: linear-gradient(45deg, #00ff00, #ff0000, #0000ff);
+  background-size: 200% 200%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0% -15%;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-left: 0.5rem;
+}
+
+.menu ul li a {
+  color: #f7f3f3;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* .search {
+  display: flex;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+} */
+.loginButton {
+  padding: 0.5rem;
+  background-color: rgba(114, 167, 89, 0.8);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.registerButton {
+  padding: 0.5rem;
+  background-color: rgba(70, 119, 47, 0.4);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.logout {
+  padding: 0.5rem;
+  background-color: #b95a53;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.logout:hover {
+  font-weight: 500;
+  background-color: #d32f2f;
+}

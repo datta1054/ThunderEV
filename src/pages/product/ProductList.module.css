@@ -1,0 +1,82 @@
+.card {
+  color: white;
+  border: 2px solid rgb(249, 109, 109);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+.cardContainer {
+  text-align: center;
+  display: flex;
+  margin: 1rem auto;
+  flex-wrap: wrap;
+}
+
+.image {
+  border-radius: 1rem;
+  width: 20rem;
+  height: 13rem;
+  margin-bottom: -0.2rem;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: bold; 
+}
+
+.brand {
+  font-size: 1.3rem;
+  color: #b8b3b3;
+  margin: 0.1rem;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1rem;
+  color: #777; 
+}
+
+.releaseYear {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: aqua;
+}
+.maximumPower {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.rating {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 1rem 1rem;
+}
+.starIcon {
+  color: #fdd835;
+}
+.PriceButton {
+  background-color: #118c0b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.viewMore {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.viewMore:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 0 auto;
+  margin: 0% 5%;
+  box-sizing: border-box;
+}
+
+.leftSection {
+  flex: 1;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.rightSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.leftPara {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.secondImage {
+  max-width: 80%;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.headings {
+  color: white;
+}
+
+.card {
+  background-color: rgb(70, 66, 66);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 1);
+  margin-bottom: 20px;
+}
+
+.secondHeading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.secondText {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .rightSection {
+    margin: auto;
+    margin-top: -1.5rem;
+    padding-left: 10px;
+    max-width: 50%;
+  }
+  .leftPara {
+    text-align: justify;
+    padding: 0% 5%;
+  }
+}

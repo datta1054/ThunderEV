@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 0 auto;
+  margin: 0% 5%;
+  box-sizing: border-box;
+}
+
+.leftSection {
+  flex: 1;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.rightSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.leftPara {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.secondImage {
+  max-width: 80%;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.secondText {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .rightSection {
+    margin-top: -1.5rem;
+    padding-left: 10px;
+  }
+  .leftPara {
+    text-align: justify;
+    padding: 0% 5%;
+  }
+}

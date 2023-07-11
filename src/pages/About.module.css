@@ -1,0 +1,46 @@
+.container {
+  color: white;
+  padding: 0% 5%;
+  justify-content: center;
+}
+
+.aboutHeading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.aboutText {
+  margin-bottom: 10px;
+  line-height: 2rem;
+  color: rgb(200, 198, 198);
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.image {
+  width: 150%;
+  max-width: 80%;
+  margin: 2rem;
+  border-radius: 3rem;
+}
+
+.subHeading {
+  color: coral;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aboutList {
+  font-size: 1.3rem;
+  list-style-type: none;
+  padding-left: 20px;
+  text-align: justify;
+  line-height: 2rem;
+  color: rgb(200, 198, 198);
+}
+.aboutList li {
+  margin: 2% 0%;
+}

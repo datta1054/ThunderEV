@@ -1,0 +1,39 @@
+.product {
+  padding: 0% 5%;
+}
+
+.title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 1.4rem;
+  color: #d2c2c2;
+  margin-bottom: 16px;
+  display: inline-block;
+  line-height: 2;
+  text-align: justify;
+}
+
+.expandedText {
+  display: block;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.readMoreButton {
+  display: inline;
+  background-color: #0077cc;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  margin-left: 45%;
+  margin-bottom: 1%;
+  border-radius: 4px;
+  cursor: pointer;
+}

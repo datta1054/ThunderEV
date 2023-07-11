@@ -1,0 +1,69 @@
+.carouselContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  top: -4rem;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 95%;
+  max-height: 86vh;
+  margin: 0 auto;
+}
+
+.carouselSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.carouselImage {
+  max-width: 85%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.carouselContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 16px;
+  border-radius: 3rem;
+  width: 70%;
+  margin-top: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carouselHeading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ff00a2;
+}
+
+.carouselText {
+  font-size: 16px;
+  margin: 0;
+  color: #fffb08;
+}
+
+.carousel .carousel-slider .control-arrow {
+  top: 50%;
+  transform: translateY(-50%);
+}
