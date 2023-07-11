@@ -19,7 +19,7 @@ function ParticlesBackground() {
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
-      options={ParticlesBackgroundSideConfetti}
+      options={ParticlesBackgroundSideConfetti} 
     />
   );
 }

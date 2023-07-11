@@ -9,7 +9,7 @@ const LineChart = (props) => {
   useEffect(() => {
     const ctx = chartRef.current.getContext("2d");
 
-    const startDate = subYears(new Date(), 0); 
+    const startDate = subYears(new Date(), 0);
     const labels = Array.from({ length: 8 }, (_, index) =>
       format(subYears(startDate, 6 - index), "yyyy")
     );
