@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className={styles.contact}>
           <h3>Contact</h3>
-          <p>Email: gurudatta1455@gmail.com</p>
+          <p>Email: gurudattagadde1054@gmail.com</p>
         </div>
         {/* <div className={styles.socialMedia}>
           <h3>Follow Us</h3>
