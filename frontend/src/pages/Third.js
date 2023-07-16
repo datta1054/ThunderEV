@@ -30,7 +30,7 @@ function Third(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:10000/api/products");
+        const response = await fetch("https://thenderbackend.onrender.com/api/products");
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {

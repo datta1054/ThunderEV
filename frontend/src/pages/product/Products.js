@@ -9,7 +9,7 @@ const Products = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "http://localhost:10000/api/getAllProducts"
+          "https://thenderbackend.onrender.com/api/getAllProducts"
         );
         const jsonData = await response.json();
         setData(jsonData);
