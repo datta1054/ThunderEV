@@ -27,7 +27,8 @@ const Footer = () => {
         </div> */}
       </div>
       <div className={styles.footerBottom}>
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <p>&copy; 2023 ThunderBoltz. All rights reserved.</p>
+        <p> Developed by <i>Gurudatta Kamalakar Gadde</i></p>
       </div>
     </footer>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./First.module.css";
 
-const Second = () => {
+const First = () => {
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
@@ -49,4 +49,4 @@ const Second = () => {
   );
 };
 
-export default Second;
+export default First;

@@ -10,7 +10,7 @@ function OneProduct() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "http://localhost:8080/api/getAllProducts"
+          "http://localhost:10000/api/getAllProducts"
         );
         const jsonData = await response.json();
         setData(jsonData);

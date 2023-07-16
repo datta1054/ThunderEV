@@ -29,7 +29,7 @@ const SignUp = () => {
 
     let [lat, long] = latlong;
     console.log(lat, long);
-    const response = await fetch("http://localhost:8080/api/auth/getlocation", {
+    const response = await fetch("http://localhost:10000/api/auth/getlocation", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -44,7 +44,7 @@ const SignUp = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:8080/api/auth/createuser", {
+    const response = await fetch("http://localhost:10000/api/auth/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

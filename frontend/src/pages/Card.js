@@ -20,22 +20,27 @@ function Card(props) {
   }
 
   return (
-    <div className={styles.card}>
-      <div className={styles.cardContent}>
-        <img src={props.image} alt="" className={styles.cardImage} />
-        <h2 className={styles.cardHeading}>{props.heading}</h2>
-        <p className={styles.cardBrand}>{props.brand}</p>
-        <span className={styles.cardText}>
-          {props.rating} &nbsp;
-          <FontAwesomeIcon icon={faStar} style={{ color: "yellow" }} />
-        </span>
-        <button className={styles.PriceButton}>₹ {props.price}</button>
-        <br />
-        <button className={styles.submitButton} onClick={handleViewProduct}>
-          View
-        </button>
+    <>
+      
+      <h1 className={styles.homeHeadings}>Our Other Products</h1>{" "}
+      <div className={styles.card}>
+        
+        <div className={styles.cardContent}>
+          <img src={props.image} alt="" className={styles.cardImage} />
+          <h2 className={styles.cardHeading}>{props.heading}</h2>
+          <p className={styles.cardBrand}>{props.brand}</p>
+          <span className={styles.cardText}>
+            {props.rating} &nbsp;
+            <FontAwesomeIcon icon={faStar} style={{ color: "yellow" }} />
+          </span>
+          <button className={styles.PriceButton}>₹ {props.price}</button>
+          <br />
+          <button className={styles.submitButton} onClick={handleViewProduct}>
+            View
+          </button>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

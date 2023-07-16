@@ -26,7 +26,7 @@ function Home() {
         How to Maintain Your EV's Battery?
       </h1>
       <First />
-      <h1 className={styles.homeHeadings}>Our Other Products</h1>
+ 
       <Third />
       <h1 className={styles.homeHeadings}>Services We Offer</h1>
       <Services />

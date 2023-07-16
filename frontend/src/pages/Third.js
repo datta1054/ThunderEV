@@ -4,7 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
 import { dummyIfNotLoaded } from "../Data";
 import loading from "./loading2.gif";
-function Test(props) {
+import styles from "../components/Home.module.css";
+function Third(props) {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -29,7 +30,7 @@ function Test(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:8080/api/products");
+        const response = await fetch("http://localhost:10000/api/products");
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {
@@ -42,6 +43,9 @@ function Test(props) {
 
   return (
     <div>
+      {data && data.myProducts && (
+        <h1 className={styles.homeHeadings}>Our Other Products</h1>
+      )}
       <Carousel
         infinite={true}
         autoPlay={true}
@@ -61,10 +65,10 @@ function Test(props) {
           ))
         ) : (
           <div style={{ marginLeft: "50%" }}>
-            <img src={loading} alt="" />
+            {/* <img src={loading} alt="" />
             <p style={{ fontWeight: "Bold", fontSize: "200%", color: "Pink" }}>
               Loading...
-            </p>
+            </p> */}
           </div>
         )}
       </Carousel>
@@ -72,4 +76,4 @@ function Test(props) {
   );
 }
 
-export default Test;
+export default Third;
