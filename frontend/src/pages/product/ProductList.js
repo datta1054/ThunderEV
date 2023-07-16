@@ -30,7 +30,7 @@ const Card = (props) => {
       <div className={styles.details}>
         <h3 className={styles.title}>{props.title}</h3>
         <p className={styles.brand}> {props.brand}</p>
-        <p className={styles.description}>"description"Left to add</p>
+        {/* <p className={styles.description}>"description"Left to add</p> */}
         <p className={styles.releaseYear}> {props.release_year}</p>
         <p className={styles.maximumPower}> {props.maximum_power} HP</p>
         <p className={styles.rating}>

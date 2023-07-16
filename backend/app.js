@@ -17,7 +17,7 @@ app.get("/api/products", async (req, res, next) => {
   try {
     const fetch = await import("node-fetch");
     const response = await fetch.default(
-      "https://guru-d8a3yuiat-nandanvasistabh29.vercel.app/api/products?limit=10"
+      "https://thunderevownapi.onrender.com/api/products?limit=10"
     );
     const jsonData = await response.json();
     res.json(jsonData);
@@ -31,7 +31,7 @@ app.get("/api/getAllProducts", async (req, res, next) => {
   try {
     const fetch = await import("node-fetch");
     const response = await fetch.default(
-      "https://guru-d8a3yuiat-nandanvasistabh29.vercel.app/api/products?sort=id&limit=40"
+      "https://thunderevownapi.onrender.com/api/products?sort=id&limit=40"
     );
     const jsonData = await response.json();
     res.json(jsonData);
