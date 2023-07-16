@@ -45,7 +45,7 @@ const Products = () => {
           <p style={{ fontWeight: "Bold", fontSize: "200%", color: "Pink" }}>
             Loading...
           </p>
-         <p><i>There could potentially be an issue with data retrieval upon deployment.</i></p> 
+         <p><i>There could potentially be an issue with data retrieval.</i></p> 
         </div>
       )}
     </div>
